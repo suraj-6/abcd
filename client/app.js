@@ -4,6 +4,10 @@ const form = document.getElementById("resumeForm");
 const output = document.getElementById("resumeOutput");
 const statusText = document.getElementById("status");
 
+
+
+
+
 function getFormData(formEl) {
   const fd = new FormData(formEl);
   return {
